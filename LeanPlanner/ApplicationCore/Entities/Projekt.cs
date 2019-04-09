@@ -10,5 +10,6 @@ namespace ApplicationCore.Entities
         public string Kostenstelle { get; set; }
         public string Adresse { get; set; }
         public string Status { get; set; }
+        public ICollection<Vorgang> Vorgänge { get; set; }
     }
 }
